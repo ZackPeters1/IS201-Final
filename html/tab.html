@@ -1,8 +1,8 @@
-<!--Zack Peters Last Edited: Dec 13, 2021-->
+<!--Zack Peters Last Edited: Dec 15, 2021-->
 <!DOCTYPE html>
 <html>
     <head>    
-        <link href="../styles/tab.css" type="text/css" rel="stylesheet">
+        <link href="../styles/bootstyles.css" type="text/css" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="../images/favicon-16x16.png"/>
         <title>Zack Peters - Tableau Dashboard</title>
     </head>
@@ -10,7 +10,7 @@
         <div class="header">
             <div class="inner_header">
                 <div class="logo_container"> 
-                    <a href="../index.html"><h1>Zack Peters</h1></a>
+                    <a href="../index.html" class="namedecoration"><h1>Zack Peters</h1></a>
                 </div>
                 <ul class="navigation">
                     <a href="../index.html"><li>Home</li></a>
@@ -20,7 +20,6 @@
             </div>
         </div>
         <div class="background"> 
-            <p></p>
             <!--California and New York have the highest Profits. Ohio and Texas are the worst profit states.-->
             <div class='tableauPlaceholder tableau-1' id='viz1638923636229' style='position: relative'><noscript><a href='#'><img alt='Profits by State ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProjectDashboard_16385815698130&#47;ProfitsbyState&#47;1_rss.png' style='border:none' /></a></noscript>
                 <object class='tableauViz tableau'  style='display:none;'>
@@ -40,7 +39,7 @@
                 <script type='text/javascript'>var divElement = document.getElementById('viz1638923636229');var vizElement = divElement.getElementsByTagName('object')[0];vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';var scriptElement = document.createElement('script');scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
             </div><br>
             <p>
-                California and New York have the highest Profits. Ohio and Texas are the worst profit states.
+                California and New York have the highest profits. Ohio and Texas are the states with the worst profits.
             </p>
             <!--The profits for New York have been very volitale for the past two years.-->
             <div class='tableauPlaceholder tableau-2' id='viz1638668981828'><noscript><a href='#'><img alt='Past Profits for New York (2yrs) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;PastProfitsforNewYork&#47;PastProfitsforNewYork2yrs&#47;1_rss.png' style='border: none' /></a></noscript>
@@ -62,9 +61,11 @@
                 <script type='text/javascript'>var divElement = document.getElementById('viz1638668981828');var vizElement = divElement.getElementsByTagName('object')[0];vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';var scriptElement = document.createElement('script');scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
             </div><br>
             <p>
-                The profits for New York have been very volitale for the past two years.
+                The profits for New York have been very volitale for the past two years. 
+                The past six months have shown a huge spike in profits. However, the end profits were only slightly 
+                higher than what they were before July 2014.
             </p>
-            <!--The most profitable catefory for New York is Technology which is about 37K higher than its least profitable category which is Furniture.-->
+            <!--The most profitable catefory for New York is Technology which is about 36K higher than its least profitable category which is Furniture.-->
             <div class='tableauPlaceholder tableau-3' id='viz1638667262040'><noscript><a href='#'><img alt='Profit by Category for New York ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsbyCategoryforNewYork&#47;ProfitbyCategoryforNewYork&#47;1_rss.png' style='border: none' /></a></noscript>
                 <object class='tableauViz' style='display:none;'>
                     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
@@ -83,9 +84,11 @@
                     <script type='text/javascript'>var divElement = document.getElementById('viz1638667262040');var vizElement = divElement.getElementsByTagName('object')[0];vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';var scriptElement = document.createElement('script');scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
             </div><br>
             <p>
-                The most profitable catefory for New York is <a href="https://www.nytimes.com/section/technology" target="_blank">Technology</a> which is about 37K higher than its least profitable category which is Furniture.
+                The most profitable catefory for New York is <a href="https://www.nytimes.com/section/technology" target="_blank" 
+                title="New York Times Technology Page">
+                Technology</a> which is about 36K higher than its least profitable category which is Furniture.
             </p>
-            <!--Sales for Tech in New York has also been very sparatic. There looks like there is a slight incline by the end of 2015.-->
+            <!--Sales for Tech in New York have been very sparatic. There looks like there is a slight incline by the end of 2015.-->
             <div class='tableauPlaceholder tableau-4' id='viz1638666847047'><noscript><a href='#'><img alt='Forecast Technology Sales for New York ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;ForecastTechnologySalesforNewYork&#47;ForecastTechnologySalesforNewYork&#47;1_rss.png' style='border: none' /></a></noscript>
                 <object class='tableauViz tableau'  style='display:none;'>
                     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
@@ -104,14 +107,14 @@
                     <script type='text/javascript'>var divElement = document.getElementById('viz1638666847047');var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
             </div><br>
             <p>
-                Sales for Tech in New York has also been very sparatic. There looks like there is a slight incline by the end of 2015.
+                Sales for Tech in New York have been very sparatic. However, there is a predicted upward trend in
+                sales by the end of November 2015.
             </p><br><br>
         </div>
-        <footer class="footercenter"><br>
-                <div> zpeters@gmail.com - <a href="https://www.linkedin.com/in/zackery-peters/" target="_blank">LinkedIn </a> - (801) 801-8011<br><br></div>
-                        </div>
-                    </div>
-                </div>
-        </footer>
+        <footer><br>                         
+            zpeters@gmail.com - 
+            <a href="https://www.linkedin.com/in/zackery-peters/" target="_blank">LinkedIn</a> - (801) 801-8011
+            &copy;Zack Peters 2021
+        </footer><br>
     </body>    
 </html>
